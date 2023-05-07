@@ -52,9 +52,8 @@ button {
   padding-right: 15px;
   margin-left: auto;
   margin-right: auto;
-  /*align-items: center;*/
-
-  outline: 3px solid tomato;
+  align-items: center;
+    /*outline: 3px solid tomato;*/
 }
 
 .list {
@@ -66,9 +65,7 @@ button {
 .link {
   text-decoration: none;
   font-style: normal;
-  /* padding: 0;
-margin: 0;*/
-}
+  }
 
 body {
   background-color: var(--primary-site-color);
@@ -306,10 +303,8 @@ margin-right: 24px;
   color: var(--color-footet-text);
 }
 
-.logo-
 
-
-/*page Portfolio
+/*page Portfolio*/
 
 .filter-btn {
   font-family: "Roboto", sans-serif;
@@ -317,30 +312,17 @@ margin-right: 24px;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
-  display: flex;
+
   align-items: center;
   text-align: center;
   color: var(--button-active-color);
-  background-color: var(--filter-portfolio);
-  cursor: pointer ;
+  background-color: #F4F4FD;
+  cursor: pointer;
 
   padding: 12px 24px;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border: 1px;
   border-radius: 4px;
-}*/
-
-.filter-btn{
-  font-family: "Roboto", sans-serif;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.04em;
- 
-  align-items: center;
-  text-align: center;
-  color: var(--button-active-color);
-  background-color: var(--filter-portfolio);
-  cursor: pointer ;
+  border-color: #E7E9FC;
 }
 
 .button:hover,
@@ -363,6 +345,13 @@ margin-right: 24px;
   color: var(--color-title-secondary);
 }
 
+.app-border{
+  margin-top: 72px;
+  margin-bottom: 96px;
+
+}
+
+/*
 .app-element {
   width: 360px;  
 }
@@ -375,7 +364,7 @@ margin-right: 24px;
   row-gap: 48px;
 }
 
-/*
+
 .app-element {
   flex-basis: calc((100%-48px)/3);
 }
@@ -384,10 +373,10 @@ margin-right: 24px;
   margin-right: 0;
 }*/
 
-.item-app{
+.item-app {
   row-gap: 48px;
-column-gap: 24px;
-} 
+  column-gap: 24px;
+}
 
 .app-card {
   padding-top: 32px;
