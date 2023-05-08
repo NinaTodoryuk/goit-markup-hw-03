@@ -22,55 +22,53 @@
     <link rel="stylesheet" href="./css/index.css" />
   </head>
 
-  <!-- Menu navigation -->
-  <body>
-    <header>
-      <div class="container menu-nav">
-        <!--div якщо буде фон- лайфхак Олексія-->
+ <!-- Menu navigation -->
+ <body>
+  <header>
+    <div class="container menu-nav header-border">
+      <!--div якщо буде фон- лайфхак Олексія-->
 
-        <nav class="page-nav">
-          <a href="./index.html" class="logo link"
-            >Web<span class="logo-studio">Studio</span></a
-          >
+      <nav class="page-nav">
+        <a href="./index.html" class="logo link"
+          >Web<span class="logo-studio">Studio</span></a
+        >
+        <ul class="list page-nav">
+          <li class="site-nav nav-item link">
+            <a class="menu-color link" href="./index.html">Studio</a>
+          </li>
+          <li class="site-nav nav-item link">
+            <a class="menu-color link" href="./portfolio.html">Portfolio</a>
+          </li>
+          <li class="site-nav nav-item link">
+            <a class="menu-color link" href="">Contacts</a>
+          </li>
+        </ul>
+      </nav>
 
-          <ul class="list page-nav">
-            <li class="site-nav nav-item link">
-              <a class="menu-color link" href="./index.html">Studio</a>
-            </li>
-            <li class="site-nav nav-item link">
-              <a class="menu-color link" href="./portfolio.html">Portfolio</a>
-            </li>
-            <li class="site-nav nav-item link">
-              <a class="menu-color link" href="">Contacts</a>
-            </li>
-          </ul>
-        </nav>
-
-        <!--Contacts-->
-        <address class="address">
-          <ul class="page-nav list">
-            <li class="nav-item">
-              <a class="auth-nav link" href="mailto:info@devstudio.com"
-                >info@devstudio.com</a
-              >
-            </li>
-            <li class="nav-item">
-              <a class="auth-nav link" href="tel:+110001111111"
-                >+11 (000) 111-11-11</a
-              >
-            </li>
-          </ul>
-        </address>
-      </div>
-    </header>
-    і
-
+      <!--Contacts-->
+      <address class="address">
+        <ul class="page-nav list">
+          <li class="nav-item">
+            <a class="auth-nav link" href="mailto:info@devstudio.com"
+              >info@devstudio.com</a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="auth-nav link" href="tel:+110001111111"
+              >+11 (000) 111-11-11</a
+            >
+          </li>
+        </ul>
+      </address>
+    </div>
+  </header>
+    
     <!-- hero site -->
     <main>
       <section>
         <div class="container menu-nav">
           <h1 hidden>Filters</h1>
-          <ul class="app-border team list">
+          <ul class="team app-border list">
             <li><button type="button" class="filter-btn">All</button></li>
             <li><button type="button" class="filter-btn">Web Site</button></li>
             <li><button type="button" class="filter-btn">App</button></li>
@@ -81,7 +79,7 @@
 
         <!--our app-->
         <div class="container">
-          <ul class="team item-app section-up-down list">
+          <ul class="prtf-markup section-up-down list">
             <li class="app-element">
               <a class="link-item link" href="">
                 <img
