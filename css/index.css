@@ -53,7 +53,7 @@ button {
   margin-left: auto;
   margin-right: auto;
   align-items: center;
-  /*outline: 3px solid tomato;*/
+  outline: 3px solid tomato;
 }
 
 .list {
@@ -94,6 +94,7 @@ body {
   margin-right: 76px;
   padding-top: 25px;
   padding-bottom: 25px;
+  
 }
 
 .logo-studio {
@@ -117,6 +118,7 @@ body {
 .nav-item {
   display: flex;
   align-items: center;
+  padding: 24px 0;
 }
 
 .menu-nav {
@@ -171,14 +173,17 @@ body {
 }
 
 .hero-title /*H1*/ {
+  font-weight: 700s;
   font-size: 56px;
   line-height: 1.07;
   letter-spacing: 0.02em;
   color: var(--secondary-text-color);
   max-width: 496px;
+  margin-left: auto;
+margin-right: auto;
 }
 
-.hero {
+.hero-border {
   text-align: center;
   padding: 188px 0;
 }
@@ -200,6 +205,9 @@ body {
   min-width: 169px;
   height: 56px;
   border: none;
+  border-radius: 4px;
+  margin-left: auto;
+margin-right: auto;
 }
 
 .button:hover,
@@ -235,7 +243,7 @@ body {
   color: var(--primary-text-color);
 }
 
-.border {
+.border-quality {
   padding: 120px 0;
 }
 
@@ -243,11 +251,21 @@ body {
   gap: 24px;
 }
 
+.path-quality {
+  flex-basis: calc(100%-72px / 4);
+}
+
 /*what are we doing*/
 
 .doing-up {
   margin-bottom: 72px;
+  }
+
+.border-quality{
+  padding-bottom: 120px;
 }
+
+.what{}
 
 /*team*/
 .team-color {
@@ -259,7 +277,7 @@ body {
 }
 
 .card-worker {
-  flex-basis: calc(100%-72px / 3);
+  flex-basis: calc(100%-72px / 4);
 }
 
 /*.card-worker:not(:nth-child(4n)){
@@ -271,6 +289,11 @@ margin-right: 24px;
   } 100% спосіб*/
 
 /*сучасний спосіб*/
+
+.team-border{
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
 
 .title-worker {
   font-weight: 500;
@@ -290,11 +313,9 @@ margin-right: 24px;
 .job-title {
   padding: 16px 32px;
   text-align: center;
-  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
-    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+  }
 
-  border-radius: 0px 0px 4px 4px;
-}
+
 
 /*footer*/
 .footer-area {
@@ -304,11 +325,19 @@ margin-right: 24px;
   line-height: 24px;
   letter-spacing: 0.02em;
   color: var(--color-footet-text);
+  margin-bottom: 16px;/**?**/
 }
 
 .footer-border {
   padding-top: 100px;
   padding-bottom: 100px;
+}
+
+.logo-ftr {
+  margin-right: 76px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  display: inline-block;/*???*/
 }
 
 .box {
@@ -373,7 +402,6 @@ margin-right: 24px;
   row-gap: 48px;
 }
 
-
 /*на ul!*/
 .app-element {
   flex-basis: calc((100%-48px) / 3);
@@ -413,5 +441,3 @@ margin-right: 24px;
   color: var(--primary-text-color);
 }
 
-.link-item {
-}
