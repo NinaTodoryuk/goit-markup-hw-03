@@ -53,7 +53,7 @@ button {
   margin-left: auto;
   margin-right: auto;
   align-items: center;
-  /*outline: 3px solid tomato;*/
+  outline: tomato;
 }
 
 .list {
@@ -94,7 +94,6 @@ body {
   margin-right: 76px;
   padding-top: 25px;
   padding-bottom: 25px;
-  
 }
 
 .logo-studio {
@@ -112,7 +111,9 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--primary-text-color);
-  padding: 24px 0;
+
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 
 .nav-item {
@@ -170,22 +171,20 @@ body {
 /*Hero title*/
 .main-color {
   background-color: var(--secondary-site-color);
+  padding: 188px 0;
+  align-items: center;
 }
 
 .hero-title /*H1*/ {
-  font-weight: 700s;
+  font-weight: 700px;
   font-size: 56px;
   line-height: 1.07;
   letter-spacing: 0.02em;
   color: var(--secondary-text-color);
   max-width: 496px;
   margin-left: auto;
-margin-right: auto;
-}
-
-.hero-border {
-  text-align: center;
-  padding: 188px 0;
+  margin-right: auto;
+  
 }
 
 /*button Order service*/
@@ -206,14 +205,15 @@ margin-right: auto;
   height: 56px;
   border: none;
   border-radius: 4px;
-  margin-left: auto;
-margin-right: auto;
+  margin: 0 auto;
+  margin-top: 48px;
 }
 
 .button:hover,
 .button:focus {
   color: var(--secondary-text-color);
   background-color: var(--color-hover);
+  border: 1px solid transparent;
 }
 
 /*positive quality*/
@@ -252,34 +252,23 @@ margin-right: auto;
 }
 
 .path-quality {
-  flex-basis: calc(100%-72px / 4);
+  flex-basis: calc((100%-72px) / 4);
 }
 
 /*what are we doing*/
 
 .doing-up {
   margin-bottom: 72px;
-  }
+}
 
-.border-quality{
+.border-quality {
   padding-bottom: 120px;
 }
 
-.what{}
+.what {
+}
 
 /*team*/
-.team-color {
-  background-color: var(--background-team);
-}
-
-.card-worker {
-  background-color: var(--primary-site-color);
-}
-
-.card-worker {
-  flex-basis: calc(100%-72px / 4);
-}
-
 /*.card-worker:not(:nth-child(4n)){
 margin-right: 24px;
 }
@@ -290,7 +279,20 @@ margin-right: 24px;
 
 /*сучасний спосіб*/
 
-.team-border{
+.team-color {
+  background-color: var(--background-team);
+}
+
+.card-worker {
+  background-color: var(--primary-site-color);
+  border-radius: 0px 0px 4px 4px;
+}
+
+.card-worker {
+  flex-basis: calc(100%-72px / 4);
+}
+
+.team-border {
   padding-top: 120px;
   padding-bottom: 120px;
 }
@@ -301,53 +303,56 @@ margin-right: 24px;
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--color-title-secondary);
-  padding-bottom: 8px;
+  display: inline-block; /*?*/
+  margin-bottom: 8px;
 }
 
 .team {
   display: flex;
   flex-wrap: wrap;
   gap: 24px;
+  
 }
 
 .job-title {
-  padding: 16px 32px;
+  padding-top: 32px;
+  padding-bottom: 32px;
+  padding-left: 16px;
+  padding-right: 16px;
   text-align: center;
-  }
-
-
+}
 
 /*footer*/
-.footer-area {
+.footer-border {
   background-color: var(--secondary-site-color);
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.footer-title {
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
   letter-spacing: 0.02em;
   color: var(--color-footet-text);
-  margin-bottom: 16px;/**?**/
 }
 
-.footer-border {
-  padding-top: 100px;
-  padding-bottom: 100px;
-}
-
-.logo-ftr {
-  margin-right: 76px;
-  padding-top: 25px;
-  padding-bottom: 25px;
-  display: inline-block;/*???*/
+.logo-ident {
+  margin-bottom: 16px;
+  display: inline-block; /*???*/
+  margin-left: 156px;
 }
 
 .box {
   width: 264px;
   height: 72px;
+  margin-left: 156px;
 }
 
 .logo-down {
   color: var(--color-footet-text);
 }
+
 
 /*page Portfolio*/
 
@@ -370,16 +375,24 @@ margin-right: 24px;
   border-color: #e7e9fc;
 }
 
-.button:hover,
+.app-filter{
+  justify-content: center;
+  gap: 24px;
+  margin-bottom: 72px;
+  display: flex;
+}
+
+/*.button:hover,
 .button:focus {
   color: var(--secondary-text-color);
   background-color: var(--color-hover);
-}
+}*/
 
 .filter-btn:hover,
 .filter-btn:focus {
   color: var(--secondary-text-color);
   background-color: var(--color-hover);
+  border: 1px solid transparent;
 }
 
 .filter-name {
@@ -440,4 +453,3 @@ margin-right: 24px;
   letter-spacing: 0.02em;
   color: var(--primary-text-color);
 }
-
