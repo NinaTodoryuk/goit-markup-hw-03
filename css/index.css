@@ -110,13 +110,11 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--primary-text-color);
-  
 }
 
 .nav-item {
   display: flex;
   align-items: center;
-  
 }
 
 .menu-nav {
@@ -170,7 +168,6 @@ body {
 .main-color {
   background-color: var(--secondary-site-color);
   padding: 188px 0;
-  align-items: center;
 }
 
 .hero-title /*H1*/ {
@@ -181,7 +178,8 @@ body {
   color: var(--secondary-text-color);
   max-width: 496px;
   margin-left: auto;
-  margin-right: auto;
+  margin-right: auto;  
+  align-items: center;
 }
 
 /*button Order service*/
@@ -282,6 +280,10 @@ margin-right: 24px;
   padding-bottom: 120px;
 }
 
+.team-border {
+  
+}
+
 .card-worker {
   background-color: var(--primary-site-color);
   border-radius: 0px 0px 4px 4px;
@@ -315,8 +317,13 @@ margin-right: 24px;
   text-align: center;
 }
 
-/*footer*/
+/*footer
 .footer-border {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}*/
+
+.footer-color {
   background-color: var(--secondary-site-color);
   padding-top: 100px;
   padding-bottom: 100px;
@@ -349,6 +356,7 @@ margin-right: 24px;
 /*page Portfolio*/
 
 .filter-btn {
+  /*оформление кнопок*/
   font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
@@ -368,6 +376,7 @@ margin-right: 24px;
 }
 
 .app-filter {
+  /*разметка секции кнопок*/
   justify-content: center;
   gap: 24px;
   margin-bottom: 72px;
@@ -385,11 +394,10 @@ margin-right: 24px;
   color: var(--secondary-text-color);
   background-color: var(--color-hover);
   border: 1px solid transparent;
-  border: 1px solid #e7e9fc;
 }
 
-
 .filter-name {
+  /*H3*/
   font-weight: 500;
   font-size: 20px;
   line-height: 24px;
@@ -399,20 +407,22 @@ margin-right: 24px;
 }
 
 .app-border {
+  /*границі контейнера*/
   padding-top: 96px;
   padding-bottom: 120px;
 }
 
 .prtf-markup {
+  /*разметка картинок*/
   display: flex;
   flex-wrap: wrap;
   column-gap: 24px;
   row-gap: 48px;
 }
 
-/*на ul!*/
+/*на li!*/
 .app-element {
-  flex-basis: calc((100%-48px) / 3);
+  width: calc((100% - 48px) / 3);
 }
 
 /*
@@ -434,16 +444,16 @@ margin-right: 24px;
 }*/
 
 .app-card {
-     border: 1px solid #e7e9fc;
+  /*нижняя граница*/
+  border: 1px solid #e7e9fc;
   border-top: none;
-  }
-
-.fltr-padd{
-padding: 32px 16px;}
+}
 
 .paragraph-style {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--primary-text-color);
+
+  padding: 32px 16px;
 }
