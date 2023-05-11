@@ -167,6 +167,9 @@ body {
 /*Hero title*/
 .main-color {
   background-color: var(--secondary-site-color);
+}
+
+.hero-padd{
   padding: 188px 0;
 }
 
@@ -276,11 +279,10 @@ margin-right: 24px;
 
 .team-color {
   background-color: var(--background-team);
-  padding-top: 120px;
-  padding-bottom: 120px;
-}
+  }
 
 .team-border {
+  padding: 120px 0;
   
 }
 
@@ -325,8 +327,10 @@ margin-right: 24px;
 
 .footer-color {
   background-color: var(--secondary-site-color);
-  padding-top: 100px;
-  padding-bottom: 100px;
+}
+
+.footer-padd{
+  padding: 100px 0;
 }
 
 .footer-title {
@@ -372,7 +376,8 @@ margin-right: 24px;
   padding: 12px 24px;
   border: 1px;
   border-radius: 4px;
-  border-color: #e7e9fc;
+  
+  border: 1px solid #e7e9fc;
 }
 
 .app-filter {
@@ -394,7 +399,13 @@ margin-right: 24px;
   color: var(--secondary-text-color);
   background-color: var(--color-hover);
   border: 1px solid transparent;
-}
+  }
+
+ /*.filter-btn:hover,
+.filter-btn:focus{
+  border: 1px solid transparent;
+  border: 1px solid  #e7e9fc;
+}*/
 
 .filter-name {
   /*H3*/
@@ -447,6 +458,7 @@ margin-right: 24px;
   /*нижняя граница*/
   border: 1px solid #e7e9fc;
   border-top: none;
+  padding: 32px 16px;
 }
 
 .paragraph-style {
@@ -454,6 +466,4 @@ margin-right: 24px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--primary-text-color);
-
-  padding: 32px 16px;
 }
